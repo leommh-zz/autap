@@ -1,0 +1,199 @@
+@font-face {
+     font-family: calphi;
+     src: url('../../../fonts/CALPHI_T.ttf');
+}
+
+html{
+    overflow-x: hidden;
+    overflow-y: show !important;
+}
+
+#aviso{
+
+    position: fixed;
+    bottom: 10px;
+    left:30px;
+    z-index: 10000;
+    display: none;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.modalDialog {
+/*Insira o código debaixo de tudo*/
+overflow: scroll!important;
+}
+
+.modal-open {
+  overflow-y: scroll!important;
+}
+
+#painel_user{
+    background: rgb(42, 83, 119);
+    text-transform: uppercase;
+    color: white;
+    transition: 0.6s;
+}
+
+#painel_user:hover{
+    background: rgb(55, 111, 160);
+    text-transform: uppercase;
+    color: white;
+    transition: 0.6s;
+}
+
+#painel_user span{
+    position: relative;
+    left: 7.7px;
+}
+
+#painel_user img{
+    height: 50px;
+}
+
+.panel-info{
+    border-color: #284b69;
+}
+
+.panel-info>.panel-heading{
+    background: #284b69;
+    border-color: #284b69;
+    color: white;
+}
+
+button.close {
+    color: white!important;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 0px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: #2f6290;
+    line-height: 20px;
+    transition: 0.3s;
+    font-family: 'calphi';
+    font-size: 31.6px;
+    position: relative;
+    top: 5px;
+}
+
+.navbar-theme{
+    background: rgba(255, 255, 255, 0.74);
+
+}
+
+.navbar-theme .navbar-nav>li>a{
+    color: #001d54!important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    color: #23527c!important;
+    background: none!important;
+    transition: 0.5s;
+}
+
+.nav>li>a{
+    color: #2f6290!important;
+    transition: 0.5s;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #284b69;
+    border-color: #284b69;
+}
+
+.panel-primary {
+    border-color: #284b69;
+}
+
+.btn-info {
+    color: #284b69!important;
+    background-color: #eff6fc!important;
+    border-color: #cccccc;
+    transition: 0.5s;
+}
+
+.btn-info:hover{
+    background-color: #fdfeff!important;
+    border-color: #cccccc;
+    transition: 0.5s;
+}
+
+body{
+    background-image: url(../../../img/back.png), linear-gradient(0deg, #f3f9ff, #6ea4d2);
+}
+
+.table{
+    background: white!important;
+}
+
+.paginacao{
+	position: relative;
+
+}
+
+.painel-button {
+    background: #053a54;
+    margin-bottom: 1.2px;
+    margin-top: 1.5px;
+    border-radius: 3.2px;
+}
+
+.form-control[disabled], fieldset[disabled] .form-control, input[type=checkbox][disabled] {
+    cursor: not-allowed;
+    background: rgba(241, 246, 249, 0.59);
+}
+
+.modal{
+    z-index: 1045;
+}
+
+.modal_avisos{
+	z-index: 1050!important;
+/*	position: relative;*/
+	top: 25%;
+    bottom: inherit;
+}
+.modal_avisos.modal-backdrop{
+display: none;
+}
+
+label.error {
+    color: #e20000!important;
+    font-size: 11.8px;
+}
+
+
+.formularios{
+    text-transform: capitalize!important;
+}
+
+@media screen and (min-width: 800px) {
+     #btn_cadastro_item_compra{position: relative; top: 24px;}}
+
+.row_cadastro_item_compra, .row_cadastro_compra{
+    background: #efefef;
+    border: 4px solid #ffffff;
+    color: #000000;
+    border-radius: 7px;
+}
+
+.row_cadastro_compra .form-control[disabled]{
+    background: rgb(255, 255, 255);
+}
+
+.row_carrinho{
+    background: #284b69;
+    color: white;
+    margin-bottom: 18px;
+    text-align: center;
+}

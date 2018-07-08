@@ -1,0 +1,60 @@
+
+html, body{
+}
+
+body{
+	background: linear-gradient(250deg,#41b0ff,#4766f1);
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+#menu{
+	background: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.color-white{
+	color: white;
+}
+
+#navbar a{
+	color: white;
+}
+
+#navbar a:hover{
+	background: #3957b1;
+	transition-duration: 0.5s;
+}
+
+#navbar a:open{
+	background: #3957b1;
+	transition-duration: 0.5s;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+	background-color: #3957b1;
+}
+
+.blocos{
+	height: 300px;
+	background: rgba(255,255,255, 0.9);
+}
+
+#onibus-img{
+	height: 50px;
+}
+
+.blocos div div h2{
+	font-size: 50px;
+	margin-top: 15px;
+	font-style: bold;
+}
+
+.bloco-onibus{
+	background: black;
+	height: auto;
+}
+
